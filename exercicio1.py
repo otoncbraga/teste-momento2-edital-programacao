@@ -1,39 +1,6 @@
 lista = [2,0,12,4,20,1]
 listaOrdenada = []
 
-# def getIndex(index, subLista, novo, count): 
-#     global listaOrdenada
-#     print("chamou index", str(index))
-#     x = len(subLista) 
-#     print("tamanho " + str(x))
-#     if x == 1: return index
-#     if count > 10: 
-#         print("deu merda")
-#         return index
-#     index = index//2
-#     if listaOrdenada[index] > novo:
-#         print("menor " + str(listaOrdenada[index]))
-#         print(subLista[:x//2])
-#         getIndex(index, subLista[:x//2], novo, count + 1)
-#     else:
-#         print("maior " + str(listaOrdenada[index]))
-#         index = index + index//2
-#         print(subLista[x//2:])
-#         getIndex(index, subLista[x//2:], novo, count + 1)
-
-# def ordenaLista(novo):
-#     global listaOrdenada
-#     index = len(listaOrdenada) 
-#     if index > 0: 
-#         index = getIndex(index, listaOrdenada, novo, 0)
-#         # getIndex(index, novo, 0)
-#         print("index " + str(index))
-#         listaOrdenada = listaOrdenada[:index] + [novo] + listaOrdenada[index:]
-#         print("lista " + str(listaOrdenada))
-#     else:
-#         print("deve ser chamado uma vez")
-#         listaOrdenada.append(novo)
-
 def ordenaLista(novo):
     global listaOrdenada
     if len(listaOrdenada) > 0: 
